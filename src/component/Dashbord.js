@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Product from "./Product";
+import App from "../App";
 
 class Dashboard extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class Dashboard extends Component {
     return (
       <div>
         <Product />
-        {/* {this.props.list.map((items, index) => {
+        {this.props.list.map((items, index) => {
           return (
             <div key={index}>
               <p>{items.name}</p>
@@ -18,7 +19,7 @@ class Dashboard extends Component {
               <img src={items.img} />
             </div>
           );
-        })} */}
+        })}
       </div>
     );
   }
