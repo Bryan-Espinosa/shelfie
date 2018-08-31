@@ -29,8 +29,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Dashboard />
         <Form />
+        <Dashboard state={this.state.list} />
       </div>
     );
   }
