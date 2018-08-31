@@ -11,7 +11,7 @@ class Dashboard extends Component {
     return (
       <div>
         <Product />
-        {this.props.list.map((items, index) => {
+        {/* {this.props.list.map((items, index) => {
           return (
             <div key={index}>
               <p>{items.name}</p>
@@ -19,7 +19,7 @@ class Dashboard extends Component {
               <img src={items.img} />
             </div>
           );
-        })}
+        })} */}
       </div>
     );
   }
